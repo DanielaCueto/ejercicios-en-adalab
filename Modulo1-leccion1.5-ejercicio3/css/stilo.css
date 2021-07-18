@@ -1,0 +1,36 @@
+body {
+  background-color: pink;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: blueviolet;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 50px;
+  align-items: center;
+  z-index: 1;
+}
+
+.main {
+  position: relative;
+  top: 50px;
+}
+
+#ejercicio-1 .menu {
+  display: block;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+#ejercicio-1 li {
+  background-color: aliceblue;
+  margin: 6px;
+  padding: 10px;
+  display: inline-block;
+}

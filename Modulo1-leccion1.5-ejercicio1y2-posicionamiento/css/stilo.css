@@ -1,0 +1,52 @@
+body {
+  background-color: pink;
+  margin: 0;
+}
+
+#ejercicio-1 .menu {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  margin-bottom: 50px;
+}
+
+#ejercicio-1 li {
+  background-color: aliceblue;
+  margin: 6px;
+  padding: 10px;
+  display: inline;
+}
+
+#ejercicio-1 li:first-child {
+  margin-left: 0;
+}
+
+#ejercicio-2 .divPadre {
+  margin: 0;
+}
+
+#ejercicio-2 .div {
+  position: relative;
+  border: 5px blue solid;
+  width: 300px;
+  height: 300px;
+  margin: 40px;
+  padding: 30px;
+}
+
+#ejercicio-2 .div1 {
+  background-color: aqua;
+  left: 100px;
+  top: 50px;
+}
+#ejercicio-2 .div2 {
+  background-color: lavender;
+  right: 150px;
+  bottom: 320px;
+}
+
+#ejercicio-2 .div3 {
+  background-color: green;
+  left: 180px;
+  bottom: 240px;
+}
